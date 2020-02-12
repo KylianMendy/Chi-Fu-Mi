@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA;;;AAOF;EACE","file":"styles.164d45a1.css","sourceRoot":"..","sourcesContent":[".game{\n  display: flex;\n  flex-wrap: wrap;\n  flex-direction:row;\n}\n\n.choice{\n  \n}\n\n.title{\n  color: blueviolet;\n}"]}

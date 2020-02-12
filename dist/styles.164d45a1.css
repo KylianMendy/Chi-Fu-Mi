@@ -1,0 +1,11 @@
+.game {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.title {
+  color: blueviolet;
+}
+
+/*# sourceMappingURL=/styles.164d45a1.css.map */
