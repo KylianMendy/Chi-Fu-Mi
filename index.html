@@ -5,25 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Chi-Fu-Mi</title>
-  <link href="styles.scss">
+  <link rel="stylesheet" href="styles.scss">
   <script src="main.js"></script>
 </head>
 <body>
   <div class="header">
-    
+
     <h1 class="title">CHI-FU-MI</h1>
     <p class="header__rules">Clique sur un des trois bouttons qui te sont proposés (pierre, feuille ou ciseaux) pour vaincre le grand maitre du Chi-Fu-Mi et devenir a ton tour le maitre de ce jeu.</p>
   </div>
-  <div class="game">
-  <div class="game__img">
+<div class="game">
+  <div class="player__pic">
     <img class="player__pic" src="/src/asset/pierre.png" width="300px">
     <img class="bot__pic" src="/src/asset/ciseau.png" width="300px">
   </div>
-<div class="choice" width="600px">
-  <img class="choice__pic" src="/src/asset/pierre.png" width="50px">
-  <img class="choice__pic" src="/src/asset/ciseau.png" width="50px">
-  <img class="choice__pic" src="/src/asset/papier.png" width="50px">
-</div>
+  <div class="message">
+   <p class="vistory">YOU WIN</p>
+   <p class="loose">YOU LOOSE</p>
+  </div>
+  <div class="choice" width="600px">
+    <div class="pierre">
+    <img class="choice__pierre" src="/src/asset/pierre.png" width="50px">
+    <p>Pierre</p>
+    </div>
+    <div class="pierre">
+    <img class="choice__ciseaux" src="/src/asset/ciseau.png" width="50px">
+    <p>Ciseaux</p>
+    </div>
+    <div class="pierre">
+    <img class="choice__papier" src="/src/asset/papier.png" width="50px">
+    <p>Papier</p>
+    </div>
+ </div>
 </div>
 
 

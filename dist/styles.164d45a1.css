@@ -1,11 +1,25 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .game {
-  display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 }
 
-.title {
-  color: blueviolet;
+.choice {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.message {
+  padding-bottom: 50px;
+}
+.message p {
+  visibility: hidden;
 }
 
 /*# sourceMappingURL=/styles.164d45a1.css.map */
